@@ -6,7 +6,8 @@
   "author": "Caleb Denio <cjdenio44@gmail.com>",
   "license": "MIT",
   "dependencies": {
-    "@slack/bolt": "^3.0.0"
+    "@slack/bolt": "^3.0.0",
+    "mongoose": "^5.11.13"
   },
   "devDependencies": {
     "@types/node": "^14.14.20",
