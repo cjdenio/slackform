@@ -14,15 +14,5 @@ services:
       NGROK_PORT: main:3000
     ports:
       - 3001:4040
-  db:
-    image: mongo
-    volumes:
-      - "db_volume:/data/db"
-  mongo-express:
-    image: mongo-express
-    ports:
-      - 3002:8081
-    environment:
-      ME_CONFIG_MONGODB_SERVER: db
 volumes:
   db_volume:
